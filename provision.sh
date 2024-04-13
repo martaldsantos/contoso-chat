@@ -1,4 +1,4 @@
-resourceGroupName="contchat-rg"
+resourceGroupName="amsosram-rg"
 resourceGroupLocation="swedencentral"
 
 if [ -z "$(az account show)" ]; then
