@@ -217,6 +217,8 @@ You will however need to **create `contoso-cosmos` manually from Azure ML Studio
       - key=endpoint, value=.env value for COSMOS_ENDPOINT
       - key=containerId, value=customers
       - key=databaseId, value=contoso-outdoor
+      - key=promptflow.connections, value=Custom
+      - key= azureml.flow.module: value= promptflow.connections
 1. Click "Save" to finish setup. 
 
 Refresh main Connections list screen to verify that you now have all three required connections listed.
