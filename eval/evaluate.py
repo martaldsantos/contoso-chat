@@ -1,5 +1,5 @@
 from promptflow import PFClient
-from promptflow.azure import PFClient as PFClientAzure
+from promptflow.client import PFClient as PFClientAzure
 import datetime
 
 def run_local_flow(flow: str, inputs: dict, pf_client: PFClient)->dict:
