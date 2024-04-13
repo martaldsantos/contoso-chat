@@ -212,7 +212,7 @@ You will however need to **create `contoso-cosmos` manually from Azure ML Studio
 1. Select Settings (on sidebar), scroll down to the Connections pane, and click "View All"
 1. Click "+ New connection", modify the Service field, and select Custom from dropdown
 1. Enter "Connection Name": contoso-cosmos, "Access": Project.
-1. Click "+ Add key value pairs" **four** times. Fill in the following details found in the `.env` file:
+1. Click "+ Add key value pairs" **six** times. Fill in the following details found in the `.env` file:
       - key=key, value=.env value for COSMOS_KEY, is-secret=checked
       - key=endpoint, value=.env value for COSMOS_ENDPOINT
       - key=containerId, value=customers
