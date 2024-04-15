@@ -152,8 +152,11 @@ Run the provisioning script as follows:
   ```bash
   ./provision.sh
   ```
-If you get an error of permissions, please firstly run the following code: chmod u+r+x provision.sh
+If you get an error of permissions, please firstly run the following code: 
 
+  ```bash
+chmod u+r+x provision.sh
+  ```
 The script should **set up a dedicated resource group** with the following resources:
 
  - **Azure AI services** resource
